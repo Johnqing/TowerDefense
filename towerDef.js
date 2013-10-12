@@ -37,7 +37,7 @@
         v = GUN[k];
         that.creatItem("<strong>" + k + "</strong>\n<span class=\"price\">价格：" + v.price + "</span>\n<span class=\"range\">攻击范围：" + v.range + "</span>\n<span class=\"interval\">攻击速度：" + v.interval + "</span>\n<span class=\"attack\">攻击力：" + v.attack + "</span>", k, that.gunWrap);
       }
-      that.creatItem("<span class=\"life\">血量：" + curPoint.life + "</span>\n<span class=\"life\">金币：" + curPoint.money + "</span>", "pt", that.propertyWrap);
+      that.creatItem("<span class=\"life\">血量：" + curPoint.life + "</span>\n<span class=\"money\">金币：" + curPoint.money + "</span>", "pt", that.propertyWrap);
     },
     uploadMap: function(left, top, n, wrap, cls) {
       var m, mapWrap;

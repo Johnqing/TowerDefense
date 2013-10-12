@@ -40,7 +40,7 @@ TD:: =
 		# 财产生成
 		that.creatItem """
 			<span class=\"life\">血量：#{curPoint.life}</span>
-			<span class=\"life\">金币：#{curPoint.money}</span>
+			<span class=\"money\">金币：#{curPoint.money}</span>
 		"""	
 		, "pt", that.propertyWrap
 		return
